@@ -1,0 +1,583 @@
+body{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;    
+    margin: 0%; 
+    height: 100%;
+    overflow-x: hidden;
+}
+.header1{
+background: rgb(24, 24, 24);
+width: 100%;
+height: 50px;
+display: flex;
+flex-direction:end;
+justify-content: end;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    background: rgb(0, 0, 0);
+   
+    
+width: 100%;
+height: 50px;
+}
+.logo img{
+    width: 59px;
+    height: 35px;
+    margin-left: -750px;
+    margin-top: 6px;
+}
+.navbar{
+    font-size: 125%;
+    margin-left: -500px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar ul{
+    display: inline-block;
+    color: white;
+}
+.lbl{
+    padding-left: 50px;
+   
+}
+.downlode{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    left: 1050px;
+    top: -25px;
+}
+.downlode button{
+    height: 35px;
+    width: 190px;
+    background-color: red;
+    color: white;
+    border:none;
+}
+.user img{
+    width: 162px;
+    height: 42px;
+    display: flex;
+    padding: 10px;
+
+}
+.back{
+    position: relative;
+    width: 100%;
+    height: 10%;   
+}
+.photo1{
+    position: relative; 
+}
+.photo2{
+    position: relative;
+    top: -620px;
+    left: 260px;
+}
+.caption{
+    position: relative;
+    top: -634px;
+    left: 160px;
+    font-family:"Times New Roman";
+    font-size: 16px;
+}
+.photo3{
+    width: 100%;
+    margin-top: -318px;
+}
+.photo4{
+    position: relative;
+    top: -492px;
+    left: -97px;
+}
+.photo5{
+    position: relative;
+    top: -491px;
+    left: 739px;
+}
+.News{
+    font-size: 40px;
+    margin-top: -822px;
+    margin-left: 580px;
+}
+.back3 img{
+    width:1351px ;
+    height:800px;
+    margin-top: -386px; 
+       
+}
+.Box1{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 430px;
+    margin: 20px;
+   top: 1563px;
+   left: 136px;
+}
+.Box1 h3{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 37px;
+}
+.Box1 h2{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    margin-left:21px;
+    margin-top: 22px;
+    font-size: small;
+
+}
+.Box1 h4{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 132px;
+    margin-top: 22px;
+    font-size: small;
+
+}
+.Box1 h1{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 19px;
+    margin-top: 121px;
+    font-size: small;
+    
+}
+.Box1 img{
+    width: 300px;
+}
+.date{
+    
+    width: 100%;
+    height: 259px;
+    margin-top: -4px;
+}
+.Box2{
+    position: absolute;
+    background-color: rgb(8, 8, 8);
+    width: 300px;
+    height: 430px;
+    margin: 20px;
+   top: 1563px;
+   left: 491px;
+
+}
+.Box2 h3{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 37px;
+}
+.Box2 h2{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    margin-left:21px;
+    margin-top: 22px;
+    font-size: small;
+
+}
+.Box2 h4{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 132px;
+    margin-top: 22px;
+    font-size: small;
+
+}
+.Box2 h1{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 19px;
+    margin-top: 121px;
+    font-size: small;
+    
+}
+.Box2 img{
+    width: 300px;
+
+}
+date1{
+
+    height: 259px;
+    margin-top: -4px;
+
+}
+.Box3{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 430px;
+    margin: 20px;
+   top: 1563px;
+   right: 165px;
+}
+.Box3 img{
+    width: 300px;
+}
+.Box3 h3{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 37px;
+}
+.Box3 h2{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    margin-left:21px;
+    margin-top: 22px;
+    font-size: small;
+
+}
+.Box3 h4{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 132px;
+    margin-top: 22px;
+    font-size: small;
+
+}
+.Box3 h1{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 19px;
+    margin-top: 132px;
+    font-size: small;
+    
+}
+.back5 img{
+    width: 100%;
+    margin-top: 214px;
+
+}
+.back5 h1{
+    margin-left: 751px;
+    color: white;
+    margin-top: -467px;
+    font-size: 43px;
+}
+.back5 h2{
+    margin-left: 751px;
+    color: white;
+    margin-top: 28px;
+    font-size: 25px;
+
+}
+.back5 button{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    width: 236px;
+    height: 40px;
+    margin-left: 756px;
+    border:solid 1px white;
+}
+.back6 img{
+    width: 100%;
+    margin-top: 185px;
+}
+.back6 h1{
+    margin-top: -866px;
+    margin-left: 401px;
+    color: white;
+    font-size: 37px;
+}
+.back6 h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.city{
+    width: 100%;
+    height: 1000px;
+    padding-top: 50px;
+    background-image: url("city.jpg");
+    background-size: 1500px;
+}
+.city1{
+    margin-top: 200px;
+    width: 400px;
+    height: 30px;
+    margin-left: 500px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.city2{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 1000px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: normal;
+}
+.city3{
+    display: flex;
+    margin-left: 75px;
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.badge{
+width: 390px;
+height: 500px;
+
+}
+.badge1{
+   
+    width: 390px;
+    height: 270px;
+    background-image: url("badge.png");
+    background-size: 400px;
+}
+.badge2{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.badge3{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.gun{
+    width: 390px;
+    height: 500px;
+   
+    
+    }
+.gun1{
+    width: 390px;
+    height: 270px;
+    background-image: url("gun.png");
+    background-size: 400px;
+}
+
+.gun2{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.gun3{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.skull{
+    width: 390px;
+    height: 500px;
+    
+}
+.skull1{
+    width: 390px;
+    height: 270px;
+    background-image: url("skull.png");
+    background-size: 400px;
+}
+.skull2{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    text-align: center;  
+}
+.skull3{
+    margin-top: 30px;
+    width: 390;
+    height: 100;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.background{
+    width: 100%;
+    height: 700px;
+    display: flex ;
+    background-image: url("grtex.jpg");
+    background-size: 1500px;
+}
+.background1{
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 500px;
+    height: 600px;
+    
+}
+.background2{
+    padding-top: 100px;
+    padding-left: 30px;
+    margin-left: 90px;
+    width: 700px;
+    height: 700px;
+}
+.word{
+    width: 500px;
+    height: 50px;
+    font-size: 35px;
+    letter-spacing: -3px;
+    font-weight: bold;
+}
+.word1{
+    width: 500px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.word2{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+}
+
+.btn{
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    background-color: rgb(228, 13, 13);
+    border: none;
+
+}
+
+.sq{
+    width: 500px;
+    height: 500px;
+}
+.tail{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("yellowpattr.jpg");
+    background-size: 1500px;
+}
+
+.pp0{
+    
+    margin-left: 450px;
+    background-image: url("logo.png");
+    width: 450px;
+    height: 100px;
+
+}
+.pp1{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 100px;
+   font-size: 35px;
+   font-weight: bold;
+   letter-spacing: -3px;
+
+}
+.cut2{
+    height: 35px;
+    width: 190px;
+    background-color: red;
+    color: white;
+    border:none;
+}
+.pp2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    
+    }
+.pp3
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    
+    }
+    
+.pp4{
+    margin-left: 250px;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+
+    }
+
+.container{
+    background: rgb(24, 24, 24);
+width: 100%;
+height: 200px;
+display: flex;
+flex-direction:row;
+justify-content:start;
+}
+.flex-row1{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content:flex-end;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    background:black;
+    list-style: none;
+    color: azure;
+    margin-top: 0px;
+    text-decoration: none;
+   
+}
+
+.flex-row1 a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 0px;
+    color: gray;
+
+    
+}
+.flex-row1 li{
+    padding: 25px;
+    margin-left: -150px;
+}
+   .con{
+       margin-left: 100px;
+   }
+   #join{
+       color: white;
+       padding-left: 200px;
+
+   }
